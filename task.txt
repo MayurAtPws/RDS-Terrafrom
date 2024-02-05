@@ -1,6 +1,6 @@
 i have to create a 
 - RDS with Aurora Postgre sql , use the minimum size , Multi vailability zone cluster , db subnet groyp with One cluster and two replicas (one read and one write)
-- Create a VPC caled "my-rds-vpc" with two subnets "public-subnet-1" and "private-subnet-1" this should be in the private subnet
+- Create a VPC caled "my-rds-vpc" with three subnets "public-subnet-1" , "private-subnet-1" and "private-subnet-2" this should be in the private subnet
 - Deletion Protection enabled
 - Automatic minor upgrades enabled
 - IAM authentication is enabled 
